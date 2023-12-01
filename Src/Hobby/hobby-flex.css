@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main1 > img{
+    width: 200px;
+}
+.sides{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side1>img{
+
+    width: 100px;
+}
+.side2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side2 > img{
+    width: 200px;
+}
+
+.side3 > img{
+    width: 200px;
+}
+.side4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.side4 > img{
+    width: 200px;
+}
+.paragraph{
+    margin: 20px;
+    display: flex;
+
+}
+.p1{
+    border: 5px solid white;
+    margin: 15px;
+    color: aquamarine;
+
+}
+.p2{
+    border: 5px solid white;
+    margin: 15px;
+    color: aquamarine;
+
+}
+.p3{
+    border: 5px solid white;
+    margin: 15px;
+    color: aquamarine;
+
+}
+.p4{
+    border: 5px solid white;
+    margin: 15px;
+    color: aquamarine;
+}
+h1{
+    color: aquamarine;
+}
