@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
-    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
+
 <body>
     <main>
-        <div class="contact">
+        <section class="section">
             <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
-                        <p>Email: mik@example.com</p>
-                        <p>Phone no: 0123456789</p>
-                        <div class="sicons">
-                            <a href="#"><img src="icons/facebook.svg" alt="facebook icon" width="20"></a>
-                            <a href="#"><img src="icons/instagram.svg" alt="Instagram icon" width="20"></a>
-                            <a href="#"><img src="icons/telegram.svg" alt="telegram icon" width="20"></a>
-                            <a href="#"><img src="icons/x-twitter.svg" alt="x-twitter icon" width="20"></a>
-                        </div>
-
-                    </div>
-                    <div class="contact-right">
-                        <form action="">
-                            <input type="text" placeholder="Your name">
-                            <input type="email" placeholder="Your email">
-                            <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
-                            <div class="sub">
-                                <a href="#">Submit</a>
+                <div class="columns">
+                    <div class="column is-half">
+                        <div class="contact-left">
+                            <h1 class="title is-2">Contact Me</h1>
+                            <p>Email: mik@example.com</p>
+                            <p>Phone no: 0123456789</p>
+                            <div class="sicons">
+                                <a href="#"><img src="icons/facebook.svg" alt="facebook icon" width="20"></a>
+                                <a href="#"><img src="icons/instagram.svg" alt="Instagram icon" width="20"></a>
+                                <a href="#"><img src="icons/telegram.svg" alt="telegram icon" width="20"></a>
+                                <a href="#"><img src="icons/x-twitter.svg" alt="x-twitter icon" width="20"></a>
                             </div>
-                        </form>
-                        
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="contact-right">
+                            <form action="">
+                                <div class="field">
+                                    <label class="label">Your name</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Your email</label>
+                                    <div class="control">
+                                        <input class="input" type="email" placeholder="Your email">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Your Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" name="message" rows="6" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                        <button class="button is-primary" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-
+        </section>
     </main>
-
-    
 </body>
+
 </html>
