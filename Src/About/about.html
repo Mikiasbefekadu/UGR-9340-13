@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
-<body>
+
+<body class="bg-white">
     <main>
-        <div class="main">
-            <div class="container">
-                <img src="../Images/mik with mik.jpg" alt="My photo">
+        <div class="main flex justify-center items-center py-16">
+            <div class="container mx-auto">
+                <img src="../Images/mik with mik.jpg" alt="My photo" class="rounded-lg shadow-lg">
             </div>
-                <div class="about">
-                    <h2>About Me</h2>
-                    <h4>Developer And Designer</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ea nobis debitis amet corporis, facere voluptate vero? Quis neque molestias autem. In vero omnis eius impedit totam a, iste provident iusto doloribus excepturi quisquam aperiam accusamus quo ut, vitae cum?</p>
-                    <a href="#"> Read More</a>
-                </div>
+            <div class="about ml-8">
+                <h2 class="text-3xl font-semibold mb-2">About Me</h2>
+                <h4 class="text-lg font-medium text-gray-600 mb-4">Developer And Designer</h4>
+                <p class="text-gray-700 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ea nobis
+                    debitis amet corporis, facere voluptate vero? Quis neque molestias autem. In vero omnis eius impedit
+                    totam a, iste provident iusto doloribus excepturi quisquam aperiam accusamus quo ut, vitae cum?</p>
+                <a href="#" class="text-blue-500">Read More</a>
+            </div>
         </div>
-        <div class="mini">
-            <div class="btn">
-                <a href="#">Download cv</a>
+        <div class="mini flex justify-center items-center mt-8">
+            <div class="btn bg-blue-500 px-6 py-3 rounded-full">
+                <a href="#" class="text-white">Download CV</a>
             </div>
-            <div class="read">
-            </div>
+            <div class="read"></div>
         </div>
     </main>
-    
 </body>
+
 </html>

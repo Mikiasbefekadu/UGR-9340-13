@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me</title>
-    <link rel="stylesheet" href="../css/flex.css">
+    <title>Hobby</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
-<body>
-    <main>
-        <div class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
-                        <p>Email: mik@example.com</p>
-                        <p>Phone no: 0123456789</p>
-                        <div class="sicons">
-                            <a href="#"><img src="icons/facebook.svg" alt="facebook icon" width="20"></a>
-                            <a href="#"><img src="icons/instagram.svg" alt="Instagram icon" width="20"></a>
-                            <a href="#"><img src="icons/telegram.svg" alt="telegram icon" width="20"></a>
-                            <a href="#"><img src="icons/x-twitter.svg" alt="x-twitter icon" width="20"></a>
-                        </div>
 
+<body class="font-sans bg-white">
+
+    <header>
+        <div class="header text-center">
+            <h1 class="text-black text-4xl font-bold">Hobby</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="main1">
+                <img src="../Images/mik with mik.jpg" alt="My photo" class="w-full h-auto object-cover md:object-fill">
+            </div>
+
+            <div class="sides md:col-span-2 lg:col-span-3 grid grid-cols-2 gap-8">
+                <div class="side1">
+                    <img src="../Images/Mik earphone.jpg" alt="My photo" class="w-32 h-32 md:w-100 md:h-auto object-cover">
+                    <div class="p1 text-aquamarine mt-4">
+                        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nam nihil quae alias harum neque sequi necessitatibus aliquid numquam. Incidunt enim asperiores, repellat voluptatum id ea reprehenderit accusantium dolorum tempore.</p>
                     </div>
-                    <div class="contact-right">
-                        <form action="">
-                            <input type="text" placeholder="Your name">
-                            <input type="email" placeholder="Your email">
-                            <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
-                            <div class="sub">
-                                <a href="#">Submit</a>
-                            </div>
-                        </form>
-                        
+                </div>
+
+                <div class="side2">
+                    <img src="../Images/mik with mik.jpg" alt="My photo" class="w-32 h-32 md:w-100 md:h-auto object-cover">
+                    <div class="p2 text-aquamarine mt-4">
+                        <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, tenetur repellat hic aut eum ex ipsum repudiandae, libero nisi expedita quos necessitatibus, ipsa facere! Nostrum sed repellendus odio exercitationem qui.</p>
+                    </div>
+                </div>
+
+                <div class="side3">
+                    <img src="../Images/mik yellow bg.jpg" alt="My photo" class="w-32 h-32 md:w-100 md:h-auto object-cover">
+                    <div class="p3 text-aquamarine mt-4">
+                        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam pariatur natus voluptates similique beatae dolorem accusamus voluptas velit incidunt quisquam modi, fugit nesciunt vel quam porro cupiditate illum harum.</p>
+                    </div>
+                </div>
+
+                <div class="side4">
+                    <img src="../Images/mik with mik.jpg" alt="My photo" class="w-32 h-32 md:w-100 md:h-auto object-cover">
+                    <div class="p4 text-aquamarine mt-4">
+                        <p class="text-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione repellat ex nulla numquam alias? Praesentium tempore, atque voluptate non unde doloremque dicta et a cum mollitia, aliquid repellendus vitae velit.</p>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-
+        </section>
     </main>
 
-    
 </body>
+
 </html>

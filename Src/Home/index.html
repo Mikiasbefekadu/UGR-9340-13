@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="../css/flex.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-white">
     <header>
-      <div class="banner">
-        <div class="navbar">
-          <h1 class="logo">Home</h1>
-          <ul>
-            <li><a href="../Hobby/hobby.html" class="hb">hobby</a></li>
-            <li><a href="../Resume/resume.html" class="hb">Resume</a></li>
-            <li><a href="../About/about.html" class="ab">About</a></li>
-            <li><a href="../contact/contact.html" class="ab">Contact</a></li>
-          </ul>
+        <div class="container mx-auto p-8">
+            <div class="flex items-center justify-between">
+                <h1 class="cursor-pointer text-aquamarine text-2xl uppercase font-semibold">Home</h1>
+                <ul class="flex">
+                    <li class="mr-6"><a href="../Hobby/hobby.html" class="text-aquamarine">Hobby</a></li>
+                    <li class="mr-6"><a href="../Resume/resume.html" class="text-aquamarine">Resume</a></li>
+                    <li class="mr-6"><a href="../About/about.html" class="text-aquamarine">About</a></li>
+                    <li><a href="../contact/contact.html" class="text-aquamarine">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
+
     <main>
-      <section>
-        <div class="container">
-          <div class="image">
-            <img src="../Images/mik with mik.jpg" alt="My photo" />
-          </div>
-          <div class="para">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              maiores aspernatur velit labore doloremque itaque, eveniet
-              molestias fugiat tenetur quo quisquam aperiam hic nemo similique
-              odit modi porro deserunt vero autem repellat. Corrupti, voluptatem
-              sapiente tenetur officia, earum tempora error aut odio placeat
-              ipsam suscipit temporibus laudantium explicabo qui aliquam facilis
-              illo dolorum veritatis dolor iste possimus porro debitis?
-              Corporis.
-            </p>
-          </div>
-        </div>
-      </section>
+        <section class="container mx-auto mt-8 flex flex-col md:flex-row items-center md:items-start justify-center">
+            <div class="image mb-4 md:mb-0">
+                <img src="../Images/mik with mik.jpg" alt="My photo" class="w-96 h-96 md:w-192 md:h-192 lg:w-256 lg:h-256 object-cover mx-auto">
+            </div>
+            <div class="para ml-8 md:ml-20">
+                <p class="text-aquamarine">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maiores aspernatur velit labore
+                    doloremque itaque, eveniet molestias fugiat tenetur quo quisquam aperiam hic nemo similique odit
+                    modi porro deserunt vero autem repellat. Corrupti, voluptatem sapiente tenetur officia, earum
+                    tempora error aut odio placeat ipsam suscipit temporibus laudantium explicabo qui aliquam facilis
+                    illo dolorum veritatis dolor iste possimus porro debitis? Corporis.
+                </p>
+            </div>
+        </section>
     </main>
-    </div>
-  </body>
+
+</body>
+
 </html>
