@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="../css/flex.css" />
-  </head>
-  <body>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
     <header>
-      <div class="banner">
-        <div class="navbar">
-          <h1 class="logo">Home</h1>
-          <ul>
-            <li><a href="../Hobby/hobby.html" class="hb">hobby</a></li>
-            <li><a href="../Resume/resume.html" class="hb">Resume</a></li>
-            <li><a href="../About/about.html" class="ab">About</a></li>
-            <li><a href="../contact/contact.html" class="ab">Contact</a></li>
-          </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-green bg-green">
+                <h1 class="navbar-brand logo">Home</h1>
+                <!-- Add ml-auto to align items to the right -->
+                <div class="navbar-nav ml-auto">
+                    <a href="../Hobby/hobby.html" class="nav-link hb">Hobby</a>
+                    <a href="../Resume/resume.html" class="nav-link hb">Resume</a>
+                    <a href="../About/about.html" class="nav-link ab">About</a>
+                    <a href="../contact/contact.html" class="nav-link ab">Contact</a>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
-      <section>
-        <div class="container">
-          <div class="image">
-            <img src="../Images/mik with mik.jpg" alt="My photo" />
-          </div>
-          <div class="para">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              maiores aspernatur velit labore doloremque itaque, eveniet
-              molestias fugiat tenetur quo quisquam aperiam hic nemo similique
-              odit modi porro deserunt vero autem repellat. Corrupti, voluptatem
-              sapiente tenetur officia, earum tempora error aut odio placeat
-              ipsam suscipit temporibus laudantium explicabo qui aliquam facilis
-              illo dolorum veritatis dolor iste possimus porro debitis?
-              Corporis.
-            </p>
-          </div>
-        </div>
-      </section>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../Images/mik with mik.jpg" alt="My photo" class="img-fluid" />
+                </div>
+                <div class="col-md-6">
+                    <div class="para mt-3">
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                            maiores aspernatur velit labore doloremque itaque, eveniet
+                            molestias fugiat tenetur quo quisquam aperiam hic nemo similique
+                            odit modi porro deserunt vero autem repellat. Corrupti, voluptatem
+                            sapiente tenetur officia, earum tempora error aut odio placeat
+                            ipsam suscipit temporibus laudantium explicabo qui aliquam facilis
+                            illo dolorum veritatis dolor iste possimus porro debitis?
+                            Corporis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    </div>
-  </body>
+
+    <!-- Link to Bootstrap JavaScript and Popper.js (required for Bootstrap's JavaScript plugins) -->
+    <script src="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

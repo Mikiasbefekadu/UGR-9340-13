@@ -4,44 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
-    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
 <body>
     <main>
-        <div class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
-                        <p>Email: mik@example.com</p>
-                        <p>Phone no: 0123456789</p>
-                        <div class="sicons">
-                            <a href="#"><img src="icons/facebook.svg" alt="facebook icon" width="20"></a>
-                            <a href="#"><img src="icons/instagram.svg" alt="Instagram icon" width="20"></a>
-                            <a href="#"><img src="icons/telegram.svg" alt="telegram icon" width="20"></a>
-                            <a href="#"><img src="icons/x-twitter.svg" alt="x-twitter icon" width="20"></a>
-                        </div>
-
-                    </div>
-                    <div class="contact-right">
-                        <form action="">
-                            <input type="text" placeholder="Your name">
-                            <input type="email" placeholder="Your email">
-                            <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
-                            <div class="sub">
-                                <a href="#">Submit</a>
-                            </div>
-                        </form>
-                        
+        <div class="container contact d-flex align-items-center mt-5">
+            <div class="row mx-auto">
+                <div class="col-md-6 contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>Email: mik@example.com</p>
+                    <p>Phone no: 0123456789</p>
+                    <div class="sicons">
+                        <a href="#"><img src="icons/facebook.svg" alt="facebook icon" width="20"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram icon" width="20"></a>
+                        <a href="#"><img src="icons/telegram.svg" alt="telegram icon" width="20"></a>
+                        <a href="#"><img src="icons/x-twitter.svg" alt="x-twitter icon" width="20"></a>
                     </div>
                 </div>
+                <div class="col-md-6 contact-right">
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="sub">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
         </div>
-
-
     </main>
-
-    
+    <!-- Link to Bootstrap JavaScript and Popper.js (required for Bootstrap's JavaScript plugins) -->
+    <script src="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

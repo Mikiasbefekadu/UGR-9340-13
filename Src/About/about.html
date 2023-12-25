@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <main>
-        <div class="main">
-            <div class="container">
-                <img src="../Images/mik with mik.jpg" alt="My photo">
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../Images/mik with mik.jpg" alt="My photo" class="img-fluid">
             </div>
-                <div class="about">
-                    <h2>About Me</h2>
-                    <h4>Developer And Designer</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ea nobis debitis amet corporis, facere voluptate vero? Quis neque molestias autem. In vero omnis eius impedit totam a, iste provident iusto doloribus excepturi quisquam aperiam accusamus quo ut, vitae cum?</p>
-                    <a href="#"> Read More</a>
-                </div>
+            <div class="col-lg-6 about">
+                <h2>About Me</h2>
+                <h4>Developer And Designer</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ea nobis debitis amet corporis, facere voluptate vero? Quis neque molestias autem. In vero omnis eius impedit totam a, iste provident iusto doloribus excepturi quisquam aperiam accusamus quo ut, vitae cum?</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
         </div>
-        <div class="mini">
+        <div class="row mini">
             <div class="btn">
-                <a href="#">Download cv</a>
+                <a href="#" class="btn btn-primary">Download CV</a>
             </div>
-            <div class="read">
-            </div>
+            <div class="read"></div>
         </div>
     </main>
-    
+
+    <!-- Link to Bootstrap JavaScript and Popper.js (required for Bootstrap's JavaScript plugins) -->
+    <script src="../bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
